@@ -24,13 +24,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+React JS is a UI component library built by Facebook engineers. Facebook had to build it because they were dealing with a whole bunch of data that changed based on user interactions, and no existing tools dealt with complex state like that in a way that met their needs. For example, a user’s newsfeed updates constantly whenever they like or comment on a post, and that’s just two kinds of interactions; many more exist. React makes it a lot easier to handle a lot of changing data at once through components. 
 
-- [ ] Describe state.
+- [X] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+Thinking in React means to begin to visualize components, or, all the different pieces that make up an App and interact with each other. It also means beginning to think about how state (data within an app) passes from the top of a Parent component down to its children via props. 
+
+- [X] Describe state.
+
+State is like the heart of our React App: it’s where a component can hold data that it can pass to other components via props. 
+
+- [X] Describe props.
+
+If state is the heart of an App, then props are like the blood that pumps through the system, what we pass state around as.  
 
 ## Project Set Up
 
