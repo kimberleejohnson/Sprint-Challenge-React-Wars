@@ -6,7 +6,7 @@ import './StarWars.css';
 // Creating CharacterList as a functional component that takes in props. 
 function CharacterList (props) {
     return (
-        <div>
+        <div class="characterList">
             {/* CharacterList receives the characterData, and needs to pass it down to Character as an array.  */}
             {props.characterData.map((characterData) => (
             
