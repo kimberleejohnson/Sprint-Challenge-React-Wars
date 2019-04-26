@@ -5,7 +5,8 @@ import React from 'react';
 function Character (props) {
     return (
         <div>
-            {/* Specific character traits will display here */}
+            {/* Receiving each character's Data via a prop, the Character component can then call on different data on each CharacterData element */}
+            <h1>{props.characterData.name}</h1>
         </div>
     )
 }

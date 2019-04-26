@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CharacterList from './components/CharacterList'; 
+import CharacterList from './components/CharacterList';
 
 class App extends Component {
   constructor() {
@@ -34,7 +34,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <CharacterList /> 
+        {/* characterData is the prop that passes the array in state down to CharacterList from App */}
+        <CharacterList characterData={this.state.starwarsChars}/> 
       </div>
     );
   }
