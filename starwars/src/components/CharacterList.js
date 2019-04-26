@@ -1,6 +1,8 @@
 import React from 'react'; 
 import Character from './Character'; 
 
+import './StarWars.css'; 
+
 // Creating CharacterList as a functional component that takes in props. 
 function CharacterList (props) {
     return (
